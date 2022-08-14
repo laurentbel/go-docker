@@ -1,7 +1,7 @@
 FROM golang:1.19-alpine as build
 
 WORKDIR /app
-COPY go.mod hello.go ./
+COPY src/go.mod src/hello.go ./
 RUN go build .
 
 FROM gcr.io/distroless/static-debian11
