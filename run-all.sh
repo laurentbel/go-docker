@@ -4,3 +4,4 @@ docker run -t go-docker-alpine
 docker run -t go-docker-distroless
 docker run -t go-docker-busybox
 docker run -t go-docker-scratch
+docker run -t go-docker-scratch-advanced

@@ -4,6 +4,7 @@ docker build -t go-docker-alpine -f ./docker/alpine/Dockerfile .
 docker build -t go-docker-distroless -f ./docker/distroless/Dockerfile .
 docker build -t go-docker-busybox -f ./docker/busybox/Dockerfile .
 docker build -t go-docker-scratch -f ./docker/scratch/Dockerfile .
+docker build -t go-docker-scratch-advanced -f ./docker/scratch-advanced/Dockerfile .
 echo "Images built"
 
 echo "Display size"
