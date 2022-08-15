@@ -1,2 +1,4 @@
 hello
 build-all-pernodricard.sh
+grype/csv.tmpl
+grype/run-grype.sh
